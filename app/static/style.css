@@ -1,0 +1,56 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Chat container styles */
+.chat-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* Chatbox styles */
+#chatbox {
+    border: 1px solid #ccc;
+    height: 400px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/* Custom scrollbar styles */
+#chatbox::-webkit-scrollbar {
+    width: 5px; /* Set the width of the scrollbar */
+    height: 5px; /* Set the height of the scrollbar (for horizontal scrollbar) */
+}
+
+#chatbox::-webkit-scrollbar-thumb {
+    background-color: #888; /* Set the thumb color */
+    border-radius: 10px; /* Round the corners of the scrollbar thumb */
+}
+
+#chatbox::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Change color on hover */
+}
+
+/* User message styles */
+.user-message {
+    text-align: right;
+    background: #d1f7c4;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Bot message styles */
+.bot-message {
+    text-align: left;
+    background: #f1f0f0;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
